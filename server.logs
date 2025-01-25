@@ -1,0 +1,15 @@
+2025-01-25T04:35:23.640Z | GET | /
+2025-01-25T04:37:06.305Z | GET | /products
+2025-01-25T04:37:11.302Z | GET | /product/1
+2025-01-25T04:37:15.386Z | GET | /about
+2025-01-25T04:37:19.409Z | GET | /contact
+2025-01-25T04:37:51.096Z | GET | /pizza
+2025-01-25T04:39:02.318Z | GET | /error%20test
+2025-01-25T04:39:10.092Z | GET | /
+2025-01-25T04:39:11.577Z | GET | /error-test
+2025-01-25T04:39:16.433Z | GET | /
+2025-01-25T04:40:05.951Z | GET | /assests/image(1).png
+2025-01-25T04:40:49.738Z | GET | /assests/img.png
+2025-01-25T04:42:04.497Z | GET | /assests/img.png
+2025-01-25T04:42:11.603Z | GET | /assests/img.png
+2025-01-25T04:42:38.980Z | GET | /assets/img.png
