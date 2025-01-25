@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Testimonials</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            padding: 16px;
+            margin: 16px;
+            border-radius: 8px;
+        }
+        .stars {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    {{#each testimonials}}
+    <div class="card">
+        <h3>{{name}}</h3>
+        <p><span class="stars">{{#each (range rating)}}★{{/each}}</span></p>
+        <p><strong>Comment:</strong> {{comment}}</p>
+        <p><strong>Date:</strong> {{date}}</p>
+    </div>
+    {{/each}}
+</body>
+</html>

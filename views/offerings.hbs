@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Offerings</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            padding: 16px;
+            margin: 16px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .unavailable {
+            color: red;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    {{#each offerings}}
+    <div class="card">
+        <h2>{{name}}</h2>
+        <p><strong>Price:</strong> Rs {{price}}</p>
+        <p><strong>Duration:</strong> {{duration}}</p>
+        <p>{{description}}</p>
+        {{#if available}}
+            <p>Available</p>
+        {{else}}
+            <p class="unavailable">Currently Unavailable</p>
+        {{/if}}
+    </div>
+    {{/each}}
+</body>
+</html>
